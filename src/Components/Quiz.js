@@ -29,6 +29,7 @@ function Quiz() {
 
     return (
         <div className="Quiz">
+            {/* <h1 id="countdown"></h1> */}
             <h1>{Questions[currQuestion].prompt}</h1>
             <div className="options">
                 <button onClick={() => setOptionChosen("A")}>{Questions[currQuestion].optionA}</button>
@@ -47,6 +48,19 @@ function Quiz() {
                 ) : (
                     <button onClick={nextQuestion} className="next">Next --&gt;</button>
                 )}
+            </div>
+
+            <div className="navbtn">
+                <button onClick = {() => setCurrQuestion(0)}>1</button>
+                <button onClick = {() => setCurrQuestion(1)}>2</button>
+                <button onClick = {() => setCurrQuestion(2)}>3</button>
+                <button onClick = {() => setCurrQuestion(3)}>4</button>
+                <button onClick = {() => setCurrQuestion(4)}>5</button>
+                <button onClick = {() => setCurrQuestion(5)}>6</button>
+                <button onClick = {() => setCurrQuestion(6)}>7</button>
+                <button onClick = {() => setCurrQuestion(7)}>8</button>
+                <button onClick = {() => setCurrQuestion(8)}>9</button>
+                <button onClick = {() => setCurrQuestion(9)}>10</button>
             </div>
 
         </div>
