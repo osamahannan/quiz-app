@@ -22,7 +22,7 @@
 }
 
 .options button:hover {
-  background-color: lightgreen;
+  background-color: rgb(245, 245, 102);
 }
 
 .Menu button,
