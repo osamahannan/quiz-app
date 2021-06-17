@@ -32,20 +32,21 @@ function Quiz() {
         <div className="Quiz">
             <h1>{Questions[currQuestion].prompt}</h1>
             <div className="options">
-                <button onClick={() => { 
+                <button className="option-btn" onClick={() => { 
                     setOptionChosen("A");
                     }}>
                     {Questions[currQuestion].optionA}
                 </button>
-                <button onClick={() => {
+                <button className="option-btn" onClick={() => {
                     setOptionChosen("B");
                     }}>{Questions[currQuestion].optionB}
                     </button>
-                <button onClick={() => {
+                <button className="option-btn" onClick={() => {
                     setOptionChosen("C");
+                
                     }}>{Questions[currQuestion].optionC}
                     </button>
-                <button onClick={() => {
+                <button className="option-btn" onClick={() => {
                     setOptionChosen("D");
                     }}>{Questions[currQuestion].optionD}
                     </button>
