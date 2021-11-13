@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import MainMenu from './Components/MainMenu';
 import Quiz from './Components/Quiz';
 import EndScreen from './Components/EndScreen';
-
 import { QuizContext } from "./Helpers/Contexts";
 
 

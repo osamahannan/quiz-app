@@ -75,7 +75,6 @@
   align-items: center;
 }
 
-
 .option-btn:focus {
-  outline: blue auto 5px; 
+  outline: blue auto 5px;
 }
